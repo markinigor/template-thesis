@@ -7,7 +7,7 @@ namespace Thesis\Template;
 /**
  * @api
  */
-final class HelloWorld
+final readonly class HelloWorld
 {
     public static function message(): string
     {
