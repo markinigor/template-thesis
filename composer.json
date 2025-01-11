@@ -1,6 +1,6 @@
 {
-    "name": "typhoon/template",
-    "description": "Typhoon Template",
+    "name": "thesis/template",
+    "description": "Thesis Template",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -9,8 +9,8 @@
             "email": "udaltsov.valentin@gmail.com"
         },
         {
-            "name": "Typhoon Team",
-            "homepage": "https://github.com/orgs/typhoon-php/people"
+            "name": "Thesis Team",
+            "homepage": "https://github.com/orgs/thesisphp/people"
         }
     ],
     "require": {
@@ -28,12 +28,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Typhoon\\Template\\": "src/"
+            "Thesis\\Template\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Typhoon\\Template\\": "tests/"
+            "Thesis\\Template\\": "tests/"
         }
     },
     "config": {

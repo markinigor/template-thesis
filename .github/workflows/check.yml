@@ -5,5 +5,5 @@ on:
 
 jobs:
   check:
-    uses: typhoon-php/.github/.github/workflows/check.yml@main
+    uses: thesisphp/.github/.github/workflows/check.yml@main
     secrets: inherit
