@@ -1,6 +1,6 @@
 {
     "require-dev": {
-        "maglnet/composer-require-checker": "^4.16.1"
+        "shipmonk/composer-dependency-analyser": "^1.8.2"
     },
     "config": {
         "bump-after-update": "dev",

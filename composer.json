@@ -49,8 +49,7 @@
         }
     },
     "scripts": {
-        "check-require": "tools/composer-require-checker/vendor/bin/composer-require-checker",
-        "check-unused": "tools/composer-unused/vendor/bin/composer-unused",
+        "analyse-deps": "tools/composer-dependency-analyser/vendor/bin/composer-dependency-analyser",
         "fixcs": "tools/php-cs-fixer/vendor/bin/php-cs-fixer fix --diff --verbose",
         "infection": "tools/infection/vendor/bin/infection --show-mutations",
         "normalize": "@composer bin composer-normalize normalize --diff ../../composer.json",
