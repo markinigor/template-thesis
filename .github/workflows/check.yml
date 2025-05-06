@@ -7,5 +7,3 @@ jobs:
   check:
     uses: thesis-php/.github/.github/workflows/check.yml@main
     secrets: inherit
-    with:
-      rector: true
